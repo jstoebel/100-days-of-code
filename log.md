@@ -1,30 +1,78 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1 June 5, 2017
+**Today's project**
+MERN Template
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**
+  - starting with [hackathon starter](https://github.com/sahat/hackathon-starter) organized the structure of the project to my liking. Added:
+    - Structure for React out of the box
+    - webpack/ES6
+    - Continuous Integration
+    - Linting
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts**
+I've been learning a lot of related concepts for full stack JavaScript and wanted to pull all of my learning together into one example. This project will be a jumping off point for the technologies I want to work with while also serving as a reminder on how to get things started.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** 
+  - https://github.com/jstoebel/mern_template/commit/ba73a93b8a7d551917f15cc28a7659e5bebd4152
+  - https://github.com/jstoebel/mern_template/commit/ba73a93b8a7d551917f15cc28a7659e5bebd4152
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Day 2 June 6, 2017
+**Today's project**
+MERN Template
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**
+  - more formatting and linting changes
+  - wireframe for Redux
+  - setup for building the server from ES6
+**Thoughts**
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+I think I have a decent set up going! While there is a lot I would like to add, I am ready to move on to my next FCC project. As I make new decisions about changes to structure I will put them back into this repo.
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Link to work:** 
+  
+ - https://github.com/jstoebel/mern_template/commit/8ed897ed58e295d25cb2c8aecc5db180ca4f81c0
+ - https://github.com/jstoebel/mern_template/commit/c94d35759586a4eb300125cd01179d1ee19e3975
+ - https://github.com/jstoebel/mern_template/commit/cee7341c5210a5caf75fa611cd75c19518022335
+ - https://github.com/jstoebel/mern_template/commit/ef617b372b558125287a10eedff9186088ebd2e9
 
 
-### Day 1: June 27, Monday
+### Day 3: June 7, 2017
+**Today's project**
+Nightlife App
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+**Today's Progress**
+  - started on nightlife app
+  - implemented controller action to get results fro yelp api
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+**Thoughts:** 
+I'm excited to start a new project with some solid plans!
 
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link to work:** 
+[https://www.freecodecamp.com/challenges/build-a-nightlife-coordination-app](https://www.freecodecamp.com/challenges/build-a-nightlife-coordination-app)
+
+### Day 4: June 8, 2017
+
+**Today's project**
+Nightlife App
+
+**Today's Progress**
+  - added script to `package.json` for both development and production envs
+  - built redux store
+
+
+**Thoughts** 
+
+With the controller built now its time to starting thinking about how the frontend will function. I want to focus on the first user story but also keep in mind where I will be going in the future. My basic idea for the component structure:
+
+- `App` wraps everything
+- contains a `SearchBar`. Submitting to `SearchBar` stores most recent search in store. Results from yelp are also stored kept in store. We'll need to retain this for future user stories
+- if results are present in the store display them.
+- `Bar` component displays details on single search result
+
+As I built out the store I realized there was some basic set up for the store missing from `src/client.js` I should drop that into my template.
+
+I'm also realizing that cache needs to be busted when rebuilding the client. I'll need to look into this.
+
+**Link to work:** 
