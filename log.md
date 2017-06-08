@@ -60,6 +60,7 @@ Nightlife App
 **Today's Progress**
   - added script to `package.json` for both development and production envs
   - built redux store
+  - enable cache busting by using [html-webpack-plugin](https://medium.com/powerspace-engineering/how-to-cache-busting-with-webpack-5131b4af8826)
 
 
 **Thoughts** 
