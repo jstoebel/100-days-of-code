@@ -76,3 +76,5 @@ As I built out the store I realized there was some basic set up for the store mi
 I'm also realizing that cache needs to be busted when rebuilding the client. I'll need to look into this.
 
 **Link to work:** 
+
+https://github.com/jstoebel/nightlife/commit/a08860e35aeb566715ad894ded4a600f2e1be509
