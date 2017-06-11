@@ -83,7 +83,7 @@ https://github.com/jstoebel/nightlife/commit/a08860e35aeb566715ad894ded4a600f2e1
 ### Day 5: June 9, 2017
 
 **Today's project**
-JWT/React/Redux authentication
+JWT/React/Redux authentication (service)
 
 **Today's Progress**
   - implemented login for JWT based auth service based on this tutorial [http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/)
@@ -97,3 +97,22 @@ While the Hackathon Starter provides a greater starter for session based authent
 
 https://github.com/jstoebel/mern_template/commit/cdfd79681e305b06141090b9c485c1dfa73f8689
 https://github.com/jstoebel/mern_template/commit/ef9db09df0e388a7301cf4edeef25e915e56a506
+
+### Day 6: June 10, 2017
+
+**Today's project**
+JWT/React/Redux authentication (client)
+
+**Today's Progress**
+  - finished a draft of authentication client
+  - configure webpack to emit `index.html` links to bundles. This enabled cache busting.
+
+**Thoughts** 
+
+Working through a tutorial I completed a draft of the React/Redux client to handle authentication. I had different ideas on how I wanted to structure things so there was a significant amount of refactoring from the given code. For example, I decided to split components into two parts: the front facing ui and a container the connects action dispatchers and state. This allows for better reusability.
+
+**Link to work:** 
+
+https://github.com/jstoebel/mern_template/commit/5ed8c6cc007ad13447613980fc2942d60c501df9
+https://github.com/jstoebel/mern_template/commit/8c8a2e64efc8a77879531a31896eb202b1324679
+https://github.com/jstoebel/mern_template/commit/d9146f97fd1b34faebe87b806f0a20be399ab02c
