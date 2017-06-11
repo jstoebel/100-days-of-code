@@ -111,6 +111,8 @@ JWT/React/Redux authentication (client)
 
 Working through a tutorial I completed a draft of the React/Redux client to handle authentication. I had different ideas on how I wanted to structure things so there was a significant amount of refactoring from the given code. For example, I decided to split components into two parts: the front facing ui and a container the connects action dispatchers and state. This allows for better reusability.
 
+I also ran into some confusion in terms of getting webpack to emit an `index.html` that points to the correct bundle of my client and other assets. The plugin `html-webpack-plugin` was emitting the wrong url for those assets/ After some initial confusion and frustration and figured out how to use `publicPath` to tell webpack how to properly construct the right URL.
+
 **Link to work:** 
 
 https://github.com/jstoebel/mern_template/commit/5ed8c6cc007ad13447613980fc2942d60c501df9
