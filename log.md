@@ -111,10 +111,28 @@ JWT/React/Redux authentication (client)
 
 Working through a tutorial I completed a draft of the React/Redux client to handle authentication. I had different ideas on how I wanted to structure things so there was a significant amount of refactoring from the given code. For example, I decided to split components into two parts: the front facing ui and a container the connects action dispatchers and state. This allows for better reusability.
 
-I also ran into some confusion in terms of getting webpack to emit an `index.html` that points to the correct bundle of my client and other assets. The plugin `html-webpack-plugin` was emitting the wrong url for those assets/ After some initial confusion and frustration and figured out how to use `publicPath` to tell webpack how to properly construct the right URL.
+I also ran into some confusion in terms of getting webpack to emit an `index.html` that points to the correct bundle of my client and other assets. The plugin `html-webpack-plugin` was emitting the wrong url for those assets/ After some initial confusion and frustration and figured out how to use `publicPath` to tell webpack how to properly construct the right URL. 
 
 **Link to work:** 
 
 https://github.com/jstoebel/mern_template/commit/5ed8c6cc007ad13447613980fc2942d60c501df9
 https://github.com/jstoebel/mern_template/commit/8c8a2e64efc8a77879531a31896eb202b1324679
 https://github.com/jstoebel/mern_template/commit/d9146f97fd1b34faebe87b806f0a20be399ab02c
+
+### Day 7: June 11, 2017
+
+**Today's project**
+MERN template project
+
+**Today's Progress**
+  - ported router to use react-router version 4
+
+**Thoughts** 
+
+The tutorial I am working through uses react-router version 3. There was a big rewrite in version 4 and porting things over is not trivial. Fortunately, this is not a large project and the docs walk you though this change.
+
+I encountered another breaking change with `react-cookie` the tutorial uses version 1, but version 2 is different. Unfortunately in this case, the docs were less clear on how to manage this change.
+
+**Link to work:** 
+
+https://github.com/jstoebel/mern_template/commit/454b891b0cc2c381033efe9a13c454bd6e31da7f
