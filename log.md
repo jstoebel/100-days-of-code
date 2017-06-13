@@ -136,3 +136,19 @@ I encountered another breaking change with `react-cookie` the tutorial uses vers
 **Link to work:** 
 
 https://github.com/jstoebel/mern_template/commit/454b891b0cc2c381033efe9a13c454bd6e31da7f
+
+### Day 8: June 12, 2017
+
+**Today's project**
+Batavia
+
+**Today's Progress**
+  - rough draft of `str.format`
+
+**Thoughts** 
+
+I worked on Batavia last winter and was excited to jump back into it. I created a rudimentary implementation for `.format` along with tests. Advanced features of the method (like alignment, padding, sign handling etc) are not handled yet. My next step will be to create a more robust set of tests and then proceed with TDD to ensure I've covered all of the corner cases.
+
+**Link to work:** 
+
+https://github.com/jstoebel/mern_template/commit/454b891b0cc2c381033efe9a13c454bd6e31da7f
