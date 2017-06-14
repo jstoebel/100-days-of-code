@@ -151,4 +151,19 @@ I worked on Batavia last winter and was excited to jump back into it. I created 
 
 **Link to work:** 
 
-https://github.com/jstoebel/mern_template/commit/454b891b0cc2c381033efe9a13c454bd6e31da7f
+https://github.com/jstoebel/batavia/commit/deced6862e9ac48d3183b6fed12821159400c200
+
+### Day 9: June 13, 2017
+
+**Today's project**
+Batavia
+
+**Today's Progress**
+  - more tests for `.format` feature
+ 
+**Thoughts** 
+
+I did more research on this details of `.format`. Namely all of the details listed [here](https://docs.python.org/3/library/string.html#formatstrings). My intention is to approach this problem with test driven development: write the tests first to fully describe the intended behavior and begin to implement. When they all pass I am done. This is going to be a lot of work.
+
+**Link to work:** 
+https://github.com/jstoebel/batavia/commit/877c9e1cbd178d0371d9b42494af3df0f07316fd
