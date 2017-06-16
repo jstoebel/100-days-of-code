@@ -167,3 +167,36 @@ I did more research on this details of `.format`. Namely all of the details list
 
 **Link to work:** 
 https://github.com/jstoebel/batavia/commit/877c9e1cbd178d0371d9b42494af3df0f07316fd
+
+### Day 10: June 14, 2017
+
+**Today's project**
+Batavia
+
+**Today's Progress**
+ - change tests to be more specific
+  - more work on .format
+ 
+**Thoughts** 
+
+My idea of a single test that attempts every realistic combination of specifier causes a timeout in the CI. Upon further inspection it is a huge over kill. Instead I sat down and wrote out tests trying to cover all of the corner cases
+
+**Link to work:** 
+https://github.com/jstoebel/batavia/commit/2df4e7760d7502c04cc53db9de8115590c27b6ac
+https://github.com/jstoebel/batavia/commit/4c5c409edd03b34f7f2c0d4e11a3395c2ac4af7d
+
+### Day 11: June 15, 2017
+
+**Today's project**
+Batavia
+
+**Today's Progress**
+  - more work on `.format`
+ 
+**Thoughts** 
+
+`.format` is a slog but I am make progress. I've done a draft of parsing the specifier. Next up is the functionality to produce the correct substitution.
+
+**Link to work:** 
+https://github.com/jstoebel/batavia/commit/2df4e7760d7502c04cc53db9de8115590c27b6ac
+https://github.com/jstoebel/batavia/commit/4c5c409edd03b34f7f2c0d4e11a3395c2ac4af7d
