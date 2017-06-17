@@ -200,3 +200,18 @@ Batavia
 **Link to work:** 
 https://github.com/jstoebel/batavia/commit/2df4e7760d7502c04cc53db9de8115590c27b6ac
 https://github.com/jstoebel/batavia/commit/4c5c409edd03b34f7f2c0d4e11a3395c2ac4af7d
+
+### Day 12: June 16, 2017
+
+**Today's project**
+Batavia
+
+**Today's Progress**
+  - more work on `.format`
+ 
+**Thoughts** 
+
+I finished a partial implementation of `.format` to cover strings. Next up, floats and ints
+
+**Link to work:** 
+https://github.com/jstoebel/batavia/commit/9f79d8f668d511c2adf90a22a1db40b307b07061
