@@ -215,3 +215,18 @@ I finished a partial implementation of `.format` to cover strings. Next up, floa
 
 **Link to work:** 
 https://github.com/jstoebel/batavia/commit/9f79d8f668d511c2adf90a22a1db40b307b07061
+
+### Day 13: June 17, 2017
+
+**Today's project**
+Batavia
+
+**Today's Progress**
+  - more work on `.format`
+ 
+**Thoughts** 
+
+More work on `.format`. Almost done with ints.
+
+**Link to work:** 
+https://github.com/jstoebel/batavia/commit/cab0f928e77cdb3a960f9431d1e11081af4a34c6
