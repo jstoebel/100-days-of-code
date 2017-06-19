@@ -230,3 +230,28 @@ More work on `.format`. Almost done with ints.
 
 **Link to work:** 
 https://github.com/jstoebel/batavia/commit/cab0f928e77cdb3a960f9431d1e11081af4a34c6
+
+### Day 14: June 18, 2017
+
+**Today's project**
+Batavia
+
+**Today's Progress**
+  - more work on `.format`
+ 
+**Thoughts** 
+
+I realized I painted myself into a corner with `_convertInt` the approach I was taking did not account for all of the transformations I might need to do on an int. I am changing the approach: now the method will define all of the following:
+
+  - sign
+  - alternate prefix
+  - base
+  - precent sign
+  - exponent sign (either e or E)
+  - exponent
+
+Any of these elements might not apply in which case they will be an empty string. 
+Then I just concatenate them all together. from there I will be 90% of the way there.
+
+**Link to work:** 
+https://github.com/jstoebel/batavia/commit/395471a6dd291422d2b612d705f03c116d03dc24
