@@ -268,8 +268,6 @@ Batavia
 
 Worked on debugging `.format`. There are many small hiccups but the tests will guide me along the way.
 
-**Link to work:** 
-https://github.com/jstoebel/batavia/commit/395471a6dd291422d2b612d705f03c116d03dc24
 
 ### Day 16: June 20, 2017
 
@@ -283,8 +281,6 @@ Batavia
 
 Worked on debugging `.format`.
 
-**Link to work:** 
-https://github.com/jstoebel/batavia/commit/395471a6dd291422d2b612d705f03c116d03dc24
 
 ### Day 17: June 21, 2017
 
@@ -298,8 +294,6 @@ Batavia
 
 Worked on debugging `.format`.
 
-**Link to work:** 
-https://github.com/jstoebel/batavia/commit/395471a6dd291422d2b612d705f03c116d03dc24
 
 ### Day 18: June 22, 2017
 
@@ -314,4 +308,4 @@ Batavia
 Worked on debugging `.format`.
 
 **Link to work:** 
-https://github.com/jstoebel/batavia/commit/395471a6dd291422d2b612d705f03c116d03dc24
+https://github.com/jstoebel/batavia/commit/c42c8505960b6651942b3fed0efe2f7274c9c05f
