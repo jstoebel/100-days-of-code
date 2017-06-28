@@ -95,8 +95,8 @@ While the Hackathon Starter provides a greater starter for session based authent
 
 **Link to work:** 
 
-https://github.com/jstoebel/mern_template/commit/cdfd79681e305b06141090b9c485c1dfa73f8689
-https://github.com/jstoebel/mern_template/commit/ef9db09df0e388a7301cf4edeef25e915e56a506
+ - https://github.com/jstoebel/mern_template/commit/cdfd79681e305b06141090b9c485c1dfa73f8689
+ - https://github.com/jstoebel/mern_template/commit/ef9db09df0e388a7301cf4edeef25e915e56a506
 
 ### Day 6: June 10, 2017
 
@@ -115,9 +115,9 @@ I also ran into some confusion in terms of getting webpack to emit an `index.htm
 
 **Link to work:** 
 
-https://github.com/jstoebel/mern_template/commit/5ed8c6cc007ad13447613980fc2942d60c501df9
-https://github.com/jstoebel/mern_template/commit/8c8a2e64efc8a77879531a31896eb202b1324679
-https://github.com/jstoebel/mern_template/commit/d9146f97fd1b34faebe87b806f0a20be399ab02c
+ - https://github.com/jstoebel/mern_template/commit/5ed8c6cc007ad13447613980fc2942d60c501df9
+ - https://github.com/jstoebel/mern_template/commit/8c8a2e64efc8a77879531a31896eb202b1324679
+ - https://github.com/jstoebel/mern_template/commit/d9146f97fd1b34faebe87b806f0a20be399ab02c
 
 ### Day 7: June 11, 2017
 
@@ -175,15 +175,15 @@ Batavia
 
 **Today's Progress**
  - change tests to be more specific
-  - more work on .format
+ - more work on .format
  
 **Thoughts** 
 
 My idea of a single test that attempts every realistic combination of specifier causes a timeout in the CI. Upon further inspection it is a huge over kill. Instead I sat down and wrote out tests trying to cover all of the corner cases
 
 **Link to work:** 
-https://github.com/jstoebel/batavia/commit/2df4e7760d7502c04cc53db9de8115590c27b6ac
-https://github.com/jstoebel/batavia/commit/4c5c409edd03b34f7f2c0d4e11a3395c2ac4af7d
+ - https://github.com/jstoebel/batavia/commit/2df4e7760d7502c04cc53db9de8115590c27b6ac
+ - https://github.com/jstoebel/batavia/commit/4c5c409edd03b34f7f2c0d4e11a3395c2ac4af7d
 
 ### Day 11: June 15, 2017
 
@@ -198,8 +198,8 @@ Batavia
 `.format` is a slog but I am make progress. I've done a draft of parsing the specifier. Next up is the functionality to produce the correct substitution.
 
 **Link to work:** 
-https://github.com/jstoebel/batavia/commit/2df4e7760d7502c04cc53db9de8115590c27b6ac
-https://github.com/jstoebel/batavia/commit/4c5c409edd03b34f7f2c0d4e11a3395c2ac4af7d
+ - https://github.com/jstoebel/batavia/commit/2df4e7760d7502c04cc53db9de8115590c27b6ac
+ - https://github.com/jstoebel/batavia/commit/4c5c409edd03b34f7f2c0d4e11a3395c2ac4af7d 
 
 ### Day 12: June 16, 2017
 
@@ -309,3 +309,26 @@ Worked on debugging `.format`.
 
 **Link to work:** 
 https://github.com/jstoebel/batavia/commit/c42c8505960b6651942b3fed0efe2f7274c9c05f
+
+### Day 19-25: June 22 - 28, 2017
+
+**Today's project**
+Batavia
+
+**Week's Progress**
+  - Finished a draft on `.format`!
+  - but I also broke a bunch of tests...
+ 
+**Thoughts** 
+
+Quarter of the way through! 
+I soldiered through and finished a draft. Most of my test cases are passing save for two. They are:
+
+ - support for `**` splat operator (It looks like this isn't implemented yet)
+ - support for atypical types (things like `complex`, `bytearray` etc, you know stuff you probably wouldn't use with this feature. But we need to support it.)
+ 
+For reasons I still don't understand [I broke a bunch of tests](https://github.com/pybee/batavia/pull/555#issuecomment-311703718) which is confusing to me. My only guess is that it has something to do with editing `hash.js` but I have [this PR](https://github.com/pybee/batavia/pull/582) where I made the exact same changes but the tests pass. I'm waiting on some help from the project maintainer. Until I hear back, its back to my mern_tempalte for a bit...
+
+**Link to work:** 
+ - https://github.com/pybee/batavia/pull/555
+ - https://github.com/pybee/batavia/pull/582
