@@ -332,3 +332,19 @@ For reasons I still don't understand [I broke a bunch of tests](https://github.c
 **Link to work:** 
  - https://github.com/pybee/batavia/pull/555
  - https://github.com/pybee/batavia/pull/582
+ 
+
+### Day 26-32: June 29-July 4th
+
+ **Today's project**
+ MERN Template
+
+ **Progress**
+ I completed more work on my MERN template including finishing up the authentication system using JWTs and starting on tests using Mocha/Enyme
+  
+ **Thoughts** 
+ 
+ Using Passport and JSON Web Tokens is complex but I think I am on my way to fully understanding them. I've written tests before using Mocha and Enzyme and it appears to be paying off. I'm finding that I'm able to battle my way through tough spots a bit quicker thanks to that prior experience.
+
+ **Link to work:** 
+ https://github.com/jstoebel/mern_template
