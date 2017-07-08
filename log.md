@@ -348,3 +348,21 @@ For reasons I still don't understand [I broke a bunch of tests](https://github.c
 
  **Link to work:** 
  https://github.com/jstoebel/mern_template
+ 
+### Day 33-36: July 5th-8th
+
+**Today's project**
+MERN Template
+
+**Progress**
+ - Finished writing tests for template
+ - implemented linting
+ - remove unused dependencies
+ - wrote readme
+ 
+**Thoughts** 
+
+This project has been several weeks in the making but I now have a good example of a MERN stack app. All of my future apps can use this as a starting point. As I learn new technologies I will be able to add them to this app.
+
+**Link to work:** 
+https://github.com/jstoebel/mern_template
