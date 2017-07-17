@@ -349,7 +349,7 @@ For reasons I still don't understand [I broke a bunch of tests](https://github.c
  **Link to work:** 
  https://github.com/jstoebel/mern_template
  
-### Day 33-36: July 5th-8th
+### Days 33-36: July 5th-8th
 
 **Today's project**
 MERN Template
@@ -366,3 +366,31 @@ This project has been several weeks in the making but I now have a good example 
 
 **Link to work:** 
 https://github.com/jstoebel/mern_template
+
+### Days 37-45: July 9th - 16th
+
+**Today's project**
+Learning React Native
+
+**Progress**
+Worked through chapters 1-5 and part of 6
+ 
+**Thoughts** 
+
+I worked through the above chapters, trying out the inputted code to make sure I understand it. I haven't "shipped" anything per say, but I have gotten a firm grasp of the basics of React Native, particularly 
+  - set up the dev environment
+  - layout and style basic elements
+  - build gestures using the `PanResponder` API.
+  - Why Apple really wants you to use https
+  - how to have your dev app be built to dynamically look for your computer's IP address, so you don't have to hard code it.
+  - Access user's location and camera roll
+  - attach native libraries to the build
+
+**Link to work:** 
+
+Again, the "shipping" has happened in the lightbulbs turned on in my brain not a git repo. But here are some links that got me unstuck in the past week:
+
+ - [https://facebook.github.io/react-native/docs/running-on-simulator-ios.html](https://facebook.github.io/react-native/docs/running-on-simulator-ios.html)
+ - [https://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http](https://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http)
+ - [https://github.com/jondot/react-native-network-boot](https://github.com/jondot/react-native-network-boot)
+ - [https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)
