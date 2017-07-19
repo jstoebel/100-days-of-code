@@ -394,3 +394,19 @@ Again, the "shipping" has happened in the lightbulbs turned on in my brain not a
  - [https://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http](https://stackoverflow.com/questions/31254725/transport-security-has-blocked-a-cleartext-http)
  - [https://github.com/jondot/react-native-network-boot](https://github.com/jondot/react-native-network-boot)
  - [https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)
+
+### Days 46-47
+
+**Today's project**
+Learning React Native
+
+**Progress**
+
+Sorted out how to send an image to a server on Android. Still working on ios
+ 
+**Thoughts** 
+
+I am getting a strange inconcistancy when trying to upload an image selected on ios. see [this github ticket](https://github.com/wkh237/react-native-fetch-blob/issues/437) 
+
+**Link to work:**
+https://github.com/wkh237/react-native-fetch-blob/issues/437
