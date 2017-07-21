@@ -395,7 +395,7 @@ Again, the "shipping" has happened in the lightbulbs turned on in my brain not a
  - [https://github.com/jondot/react-native-network-boot](https://github.com/jondot/react-native-network-boot)
  - [https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)
 
-### Days 46-47
+### Days 46-47 July 17-18th
 
 **Today's project**
 Learning React Native
@@ -410,3 +410,23 @@ I am getting a strange inconcistancy when trying to upload an image selected on 
 
 **Link to work:**
 https://github.com/wkh237/react-native-fetch-blob/issues/437
+
+### Days 48-49 July 19-20th
+
+**Today's project**
+Nightlife app
+
+**Progress**
+
+ - Got set up to make progress on the project
+ - set up redux store
+ - implemented controller action to fetch results from Yelp api
+ - started work on results component
+ 
+**Thoughts** 
+
+Building a template was worth it! I didn't have to remember any of the tricky stuff!
+
+**Link to work:**
+[https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
+
