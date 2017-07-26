@@ -430,3 +430,37 @@ Building a template was worth it! I didn't have to remember any of the tricky st
 **Link to work:**
 [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
 
+### Day 50 July 21st
+
+**Today's project**
+Nightlife app
+
+**Progress**
+
+ - set up `react-leaflet`
+ 
+**Thoughts** 
+
+Given that many of the images available for locations on Yelp aren't very good quality I decided to go with another direction: maps! Searching for a location will bring up a map of the area with all of the search hits mapped out.
+
+Getting started with `react-leaflet` was a bit tricky. [This bug](https://github.com/Leaflet/Leaflet/issues/4968) had me stumped for a while, but upon stumbling upon that issue in github, I had a workaround. 
+
+**Link to work:**
+[https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
+
+### Days 51-56 July 22nd-July26
+
+**Today's project**
+Nightlife app
+
+**Progress**
+
+ - wire up components to redux store
+ - continued work on back end
+ 
+**Thoughts** 
+
+I had some more practice with wiring up my components to a redux store. One paticularly tricky problem was dealing with a leaflet popup that needs access to the store. Essentially passing the store down from the container [isn't possible](https://github.com/PaulLeCam/react-leaflet/issues/266). Fortunatly I can do it manually but passing the store to the parent `Map` component (done already) and then passing the desired state in as plain old props. The nice thing about React is that either way is an acceptable way to pass in props and the component won't know the difference. This also serves as an example of why its a good idea to seperate your containers from your components!
+
+**Link to work:**
+[https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
