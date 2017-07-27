@@ -464,3 +464,20 @@ I had some more practice with wiring up my components to a redux store. One pati
 
 **Link to work:**
 [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
+
+### Days 57, July 27th
+
+**Today's project**
+Nightlife app
+
+**Progress**
+ - clicking rsvp updates state -> refreshes button render
+ - implement unrsvp
+ - search feature
+ 
+**Thoughts** 
+
+I'm getting more confident with redux and redux-form. I'm noticing that small changes are getting easier and easier to implement. Spending less time being confused, and puttering around, and am able to dive in and get straight to work!
+
+**Link to work:**
+[https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
