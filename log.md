@@ -465,7 +465,7 @@ I had some more practice with wiring up my components to a redux store. One pati
 **Link to work:**
 [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
 
-### Days 57, July 27th
+### Day 57, July 27th
 
 **Today's project**
 Nightlife app
@@ -481,3 +481,38 @@ I'm getting more confident with redux and redux-form. I'm noticing that small ch
 
 **Link to work:**
 [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
+
+### Day 58-59, July 28th-29th
+
+**Today's project**
+ipython-sql
+
+**Progress**
+ - discovered and documented bug
+ - fixed issue #94
+ - reviewed a few potentially old tickets
+ 
+**Thoughts** 
+
+For the last two days I sprinted on [this project](https://github.com/catherinedevlin/ipython-sql/) for PyOhio. The project maintainer is super nice and supportive.
+
+**Link to work:**
+ - https://github.com/catherinedevlin/ipython-sql/pull/94
+ - https://github.com/catherinedevlin/ipython-sql/pull/93
+
+
+ ### Days 60-70, July 30th-August-9th
+
+ **Today's project**
+ nightlife app
+
+ **Progress**
+  - completed most tests for project
+  
+ **Thoughts** 
+
+ In this week and a half I have leveled up my understanding of writing tests using Mocha/Chai/Enzyme. Specifically, I have gained a better understanding of mocking out parts of the system including the redux store, database, authentication and external services.
+
+
+ **Link to work:**
+ [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
