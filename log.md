@@ -516,3 +516,21 @@ For the last two days I sprinted on [this project](https://github.com/catherined
 
  **Link to work:**
  [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
+
+ ### Days 71-72, August 10th-August 11th
+
+ **Today's project**
+ nightlife app
+
+ **Progress**
+  - tweaks for Heroku deployment
+  - created Heroku setup script
+  - deployed to Heroku
+  
+ **Thoughts** 
+
+ This project is finally done! Although Heroku streamlines the deployment process there were a few issues I needed to grapple with. I created a script to setup the Heroku app, creates the database and sets env variables. I also had to make some tweaks to allow for Heroku to build the client and serve at each deploy.
+
+
+ **Link to work:**
+ [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
