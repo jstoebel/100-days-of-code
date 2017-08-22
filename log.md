@@ -534,3 +534,19 @@ For the last two days I sprinted on [this project](https://github.com/catherined
 
  **Link to work:**
  [https://github.com/jstoebel/nightlife](https://github.com/jstoebel/nightlife)
+
+ ### Days 73 - 83, August 12th - August 22nd
+
+ **Today's project**
+reminder bot
+
+ **Progress**
+  - completed prototype as a Flask app
+  
+ **Thoughts** 
+
+It took me a bit of time to become comfortable with the Slack API in order to get started. I was spent some time flip flopping over whether to use the RST model (which allows for open chat) or to use slash commands using a simple Flask app. In the end, I decided on slash commands for the clarity of the interface. If I was to do an open ended chat bot I would need to account for more corner cases introduced by natural language.
+
+
+ **Link to work:**
+ [https://github.com/jstoebel/reminder_bot](https://github.com/jstoebel/reminder_bot)
